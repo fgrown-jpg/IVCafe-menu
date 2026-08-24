@@ -82,6 +82,7 @@
     {
       "id": "8",
       "title": "چای کرک",
+      "price":0,
       "description": "ناموجود",
       "category": "چای و دمنوش",
       "image": "/images/chaicarac.jpg",
@@ -269,7 +270,7 @@
     {
       "id": "25",
       "title": "لیموناد",
-      
+      "price":0,
       "description": "ناموجود",
       "category": "نوشیدنی سرد",
       "image": "/images/limoonad.jpg",
@@ -292,7 +293,7 @@
     {
       "id": "27",
       "title": "موهیتو",
-      
+      "price":0,
       "description": "ناموجود",
       "category": "نوشیدنی سرد",
       "image": "/images/mohito.jpg",
@@ -425,7 +426,7 @@
     {
       "id": "39",
       "title": "اسموتی انبه ",
-     
+     "price":0,
       "description": " ناموجود",
       "category": "نوشیدنی سرد",
            "image": "/images/smothyanbe.jpg",
@@ -459,7 +460,7 @@
     {
       "id": "42",
       "title": " وایت چاکلت ",
-  
+      "price":0,
       "description": "ناموجود",
       "category": "نوشیدنی گرم",
       "image": "/images/whitechoclet.jpg",

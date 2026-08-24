@@ -14,5 +14,5 @@ export interface IProduct {
 
 export interface Rating {
   rate: number
-  count: number
+
 }
