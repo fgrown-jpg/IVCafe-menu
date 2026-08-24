@@ -1,9 +1,9 @@
 
 import { Link } from 'react-router'
-import { FaShoppingBasket } from "react-icons/fa";
+// import { FaShoppingBasket } from "react-icons/fa";
 
  import { useShoppingCartContext } from './context/ShoppingContext';
-import { BiSearchAlt } from "react-icons/bi";
+// import { BiSearchAlt } from "react-icons/bi";
 import { MdStore } from "react-icons/md";
 
 function Header() {

@@ -1,18 +1,18 @@
 import React, { createContext, useContext,useState } from 'react'
-import { getItem } from '../../../services/api';
-import { useLocalStorage } from '../../hooks/useLocalStorage';
+// import { getItem } from '../../../services/api';
+// import { useLocalStorage } from '../../hooks/useLocalStorage';
 
 
 interface ShoppingCartProvider{
   children:React.ReactNode
 }
-interface CartItem{
-  id:number;
-  qty:number;
-  price:number;
+// interface CartItem{
+//   id:number;
+//   qty:number;
+//   price:number;
   
 
-}
+// }
 interface ShoppingCartContext{
   // cartItems:CartItem[]
   // handleAddToCart:(id:number)=>void
@@ -34,7 +34,7 @@ function ShoppingContext({children}:ShoppingCartProvider) {
 
 
   
-const [cartItems,setCartItems]=useLocalStorage<CartItem[]>("cartItems",[])
+// const [cartItems,setCartItems]=useLocalStorage<CartItem[]>("cartItems",[])
 
 const [searchQuery,setSearchQuery]=useState<string>("")
 // const handleAddToCart=async(id:number)=>{
@@ -94,7 +94,7 @@ const [searchQuery,setSearchQuery]=useState<string>("")
 // }
 
 
- const cartQty=cartItems.reduce((totalQty,item)=>totalQty+item.qty,0)
+//  const cartQty=cartItems.reduce((totalQty,item)=>totalQty+item.qty,0)
 
 
   return (
