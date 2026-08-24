@@ -6,11 +6,13 @@ import { Link } from "react-router";
 type TproductItem = IProduct;
 function ProductItem({ image, title, category, price, id }: TproductItem) {
   // const { handleAddToCart } = useShoppingCartContext();
+  console.log("IMAGE:",image)
   return (
     <>
     <div className=" w-full max-w-sm">
       <div className="bg-white flex justify-center rounded-t-3xl overflow-hidden">
         <Link to={`/product/${id}`}>
+        
           <img 
             src={image}
             alt={title}
