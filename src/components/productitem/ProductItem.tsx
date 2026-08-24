@@ -1,6 +1,6 @@
 import type { IProduct } from "../../../services/type";
-import { FaCirclePlus } from "react-icons/fa6";
-import { useShoppingCartContext } from "../context/ShoppingContext";
+// import { FaCirclePlus } from "react-icons/fa6";
+// import { useShoppingCartContext } from "../context/ShoppingContext";
 import { Link } from "react-router";
 
 type TproductItem = IProduct;

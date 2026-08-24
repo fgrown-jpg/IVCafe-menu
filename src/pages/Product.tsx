@@ -3,10 +3,10 @@ import { getItem } from "../../services/api"
 import { useParams } from "react-router"
 import type { IProduct } from "../../services/type"
 import { FaStar } from "react-icons/fa";
-import Button from "../components/button/Button";
-import { useShoppingCartContext } from "../components/context/ShoppingContext";
-import { LuPlus } from "react-icons/lu";
-import { LuMinus } from "react-icons/lu";
+// import Button from "../components/button/Button";
+// import { useShoppingCartContext } from "../components/context/ShoppingContext";
+// import { LuPlus } from "react-icons/lu";
+// import { LuMinus } from "react-icons/lu";
 
 
 function Product() {

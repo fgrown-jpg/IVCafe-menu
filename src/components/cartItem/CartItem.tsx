@@ -1,9 +1,9 @@
 import { getItem } from "../../../services/api";
 import { useEffect, useState } from "react";
 import type { IProduct } from "../../../services/type";
-import { LuPlus } from "react-icons/lu";
-import { LuMinus } from "react-icons/lu";
-import { MdDeleteForever } from "react-icons/md";
+// import { LuPlus } from "react-icons/lu";
+// import { LuMinus } from "react-icons/lu";
+// import { MdDeleteForever } from "react-icons/md";
 // import { useShoppingCartContext } from "../context/ShoppingContext";
 interface TCartitem {
   id: number;
