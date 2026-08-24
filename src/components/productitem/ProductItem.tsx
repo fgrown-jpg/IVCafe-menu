@@ -14,7 +14,7 @@ function ProductItem({ image, title, category, price, id }: TproductItem) {
         <Link to={`/product/${id}`}>
         
           <img 
-            src={image}
+            src="/images/afagato.jpg"
             alt={title}
             className="w-full max-w-[200px] h-60   object-contain scale-150  p-5 "
           />
