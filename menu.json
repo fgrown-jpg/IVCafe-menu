@@ -1,0 +1,628 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": " افوگاتو",
+      "price": 280 ,
+      "description": "یک شات قهوه, بستنی وانیلی ,گارنیش",
+      "category": "قهوه سرد",
+      "image": "/images/afogato.jpg",
+      "rating": {
+        "rate": 3.9
+      }
+    },
+    {
+      "id": "2",
+      "title": "امریکانو",
+      "price":160,
+      "description": "عربیکا :180",
+      "category": "قهوه گرم",
+      "image": "/images/americano.jpg",
+      "rating": {
+        "rate": 4.1
+      }
+    },
+    {
+      "id": "3",
+      "title": "اویشن",
+      "price": 140,
+      "description": "",
+      "category": "چای و دمنوش",
+      "image": "/images/avishan.jpg",
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": "4",
+      "title": "بهار نارنج و به لیمو",
+      "price":160,
+      "description": "",
+      "category": "چای و دمنوش",
+      "image": "/images/baharnarengvalimoo.jpg",
+      "rating": {
+        "rate": 2.1
+
+      }
+    },
+    {
+      "id": "5",
+      "title": "کاپوچینو",
+      "price": 170,
+      "description": "عربیکا:190",
+      "category": "قهوه گرم",
+      "image": "/images/cappuchino.jpg",
+      "rating": {
+        "rate": 4.6
+
+      }
+    },
+    {
+      "id": "6",
+      "title": "کارامل ماکیاتو",
+      "price": 230,
+      "description": "عربیکا:250",
+      "category": "قهوه گرم",
+      "image": "/images/caramelmaccuiato.jpg",
+      "rating": {
+        "rate": 3.9
+      }
+    },
+    {
+      "id": "7",
+      "title": "چای",
+      "price": 100,
+      "description": "",
+      "category": "چای و دمنوش",
+      "image": "/images/chai.jpg",
+      "rating": {
+        "rate": 3
+      }
+    },
+    {
+      "id": "8",
+      "title": "چای کرک",
+      "price":0,
+      "description": "ناموجود",
+      "category": "چای و دمنوش",
+      "image": "/images/chaicarac.jpg",
+      "rating": {
+        "rate": 1.9
+      }
+    },
+    {
+      "id": "9",
+      "title": "چای سبز",
+      "price": 100,
+      "description": "",
+      "category": "چای و دمنوش",
+      "image": "/images/chaisabz.jpg",
+      "rating": {
+        "rate": 3.3
+      }
+    },
+    {
+      "id": "10",
+      "title": "chaitorsh",
+      "price": 150,
+      "description": "",
+      "category": "چای و دمنوش",
+      "image": "/images/chaitorsh.jpg",
+      "rating": {
+        "rate": 2.9
+      }
+    },
+    {
+      "id": "11",
+      "title": "کوک اسپرسو",
+      "price": 150,
+      "description": "",
+      "category": "قهوه سرد",
+      "image": "/images/cookspresso.jpg",
+      "rating": {
+        "rate": 4.8
+      }
+    },
+    {
+      "id": "12",
+      "title": "قهوه گلد",
+      "price": 130,
+      "description": "",
+      "category": "قهوه گرم",
+      "image": "/images/ghahvehgold.jpg",
+      "rating": {
+        "rate": 4.8
+      }
+    },
+    {
+      "id": "13",
+      "title": "گلدن دریم",
+      "price": 180,
+      "description": "",
+      "category": "قهوه گرم",
+      "image": "/images/goldendream.jpg",
+      "rating": {
+        "rate": 2.9
+      }
+    },
+    {
+      "id": "14",
+      "title": "گلدن ملون",
+      "price": 150,
+      "description": "",
+      "category": "نوشیدنی سرد",
+      "image":"/images/goldenmelon.jpg",
+      "rating": {
+        "rate": 2.2
+      }
+    },
+    {
+      "id": "15",
+      "title": "گل گاو زبان",
+      "price":140,
+      "description": "",
+      "category": "چای و دمنوش",
+      "image": "/images/golegavzaban.jpg",
+      "rating": {
+        "rate": 2.6
+      }
+    },
+    {
+      "id": "16",
+      "title": "هندوانه نعنا",
+      "price": 210,
+      "description": "",
+      "category": "نوشیدنی سرد",
+      "image": "/images/hendoonenaana.jpg",
+      "rating": {
+        "rate": 2.9
+      }
+    },
+    {
+      "id": "17",
+      "title": "هات چاکلت",
+      "price": 210,
+      "description": "",
+      "category": "نوشیدنی گرم",
+      "image":"/images/hotchaclet.jpg",
+      "rating": {
+        "rate": 3.8
+      }
+    },
+    {
+      "id": "18",
+      "title": "هات لوتوس ",
+      "price": 9.85,
+      "description": "",
+      "category": "نوشیدنی سرد",
+      "image": "/images/hotlotus.jpg",
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": "19",
+      "title": "ایس امریکانو",
+      "price":160 ,
+      "description": "عربیکا :180",
+      "category": "قهوه سرد",
+           "image": "/images/iceamericano.jpg",
+      "rating": {
+        "rate": 4.5
+      }
+    },
+    {
+      "id": "20",
+      "title": "ایس لته",
+      "price": 210,
+      "description": "عربیکا:230",
+      "category": "قهوه سرد",
+                "image": "/images/icelatte.jpg",
+      "rating": {
+        "rate": 3.6
+      }
+    },
+    {
+      "id": "21",
+      "title": " کورتادو",
+      "price": 135 ,
+      "description": "عربیکا:155",
+      "category": "قهوه گرم",
+      "image": "/images/kortaddo.jpg",
+      "rating": {
+        "rate": 3.9
+      }
+    },
+    {
+      "id": "22",
+      "title": "لته فندق",
+      "price":230,
+      "description": "عربیکا :250",
+      "category": "قهوه گرم",
+      "image": "/images/lattefandogh.jpg",
+      "rating": {
+        "rate": 4.1
+      }
+    },
+    {
+      "id": "23",
+      "title": "لته آی وی",
+      "price": 240,
+      "description": "عربیکا :260",
+      "category":"قهوه گرم",
+      "image": "/images/latteIV.jpg",
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": "24",
+      "title": "لیمو عسل",
+      "price":170,
+      "description": "",
+      "category": "چای و دمنوش",
+      "image": "/images/limooassal.jpg",
+      "rating": {
+        "rate": 2.1
+
+      }
+    },
+    {
+      "id": "25",
+      "title": "لیموناد",
+      "price":0,
+      "description": "ناموجود",
+      "category": "نوشیدنی سرد",
+      "image": "/images/limoonad.jpg",
+      "rating": {
+        "rate": 4.6
+
+      }
+    },
+    {
+      "id": "26",
+      "title":"ماساسو",
+      "price": 280,
+      "description": "عربیکا:300",
+      "category": "قهوه گرم",
+      "image": "/images/massaso.jpg",
+      "rating": {
+        "rate": 3.9
+      }
+    },
+    {
+      "id": "27",
+      "title": "موهیتو",
+      "price":0,
+      "description": "ناموجود",
+      "category": "نوشیدنی سرد",
+      "image": "/images/mohito.jpg",
+      "rating": {
+        "rate": 3
+      }
+    },
+    {
+      "id": "28",
+      "title":" پینک ملون",
+     
+      "price": 190,
+      "description": "",
+      "category": "نوشیدنی سرد",
+      "image": "/images/pinkmelon.jpg",
+      "rating": {
+        "rate": 1.9
+      }
+    },
+    {
+      "id": "29",
+      "title": " رومانو",
+      "price": 320,
+      "description": "",
+      "category": "قهوه سرد",
+      "image": "/images/romano.jpg",
+      "rating": {
+        "rate": 3.3
+      }
+    },
+    {
+      "id": "30",
+      "title": "شیک بادام زمینی",
+      "price": 350,
+      "description": "",
+      "category": "شیک و بستنی",
+      "image": "/images/shakebaddamzamini.jpg",
+      "rating": {
+        "rate": 2.9
+      }
+    },
+    {
+      "id": "31",
+      "title": " شیک لوتوس",
+      "price": 360,
+      "description": "",
+      "category": "شیک و بستنی",
+      "image": "/images/shakelotus.jpg",
+      "rating": {
+        "rate": 4.8
+      }
+    },
+    {
+      "id": "32",
+      "title": "شیک موز شکلات ",
+      "price": 340,
+      "description": "",
+      "category": "شیک و بستنی",
+      "image": "/images/shakemozchoclet.jpg",
+      "rating": {
+        "rate": 4.8
+      }
+    },
+    {
+      "id": "33",
+      "title": "شیک نوتلا",
+      "price": 400,
+      "description": "",
+      "category": "شیک و بستنی",
+      "image": "/images/shakenutella.jpg",
+      "rating": {
+        "rate": 2.9
+      }
+    },
+    {
+      "id": "34",
+      "title": "شیک توت فرنگی",
+      "price": 320,
+      "description": "",
+      "category": "شیک و بستنی",
+      "image":"/images/ُshaketootfarangi.jpg",
+      "rating": {
+        "rate": 2.2
+      }
+    },
+    {
+      "id": "35",
+      "title": "شیک وانیل  ",
+      "price":320,
+      "description": "",
+      "category": "شیک و بستنی",
+      "image": "/images/shakevanill.jpg",
+      "rating": {
+        "rate": 2.6
+      }
+    },
+    {
+      "id": "36",
+      "title": "شیر داغ ",
+      "price": 120,
+      "description": "",
+      "category": "نوشیدنی گرم",
+      "image": "/images/shirdaagh.jpg",
+      "rating": {
+        "rate": 2.9
+      }
+    },
+    {
+      "id": "37",
+      "title": "شیر طعم دار ",
+      "price": 170,
+      "description": "",
+      "category": "نوشیدنی گرم",
+      "image":"/images/shiretaamdar.jpg",
+      "rating": {
+        "rate": 3.8
+      }
+    },
+    {
+      "id": "38",
+      "title": "شیر موز  ",
+      "price": 240,
+      "description": "",
+      "category": "نوشیدنی سرد",
+      "image": "/images/shirmoz.jpg",
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": "39",
+      "title": "اسموتی انبه ",
+     "price":0,
+      "description": " ناموجود",
+      "category": "نوشیدنی سرد",
+           "image": "/images/smothyanbe.jpg",
+      "rating": {
+        "rate": 4.5
+      }
+    },
+    {
+      "id": "40",
+      "title": "تورک ",
+      "price": 100,
+      "description": "",
+      "category": "قهوه گرم",
+                "image": "/images/tork.jpg",
+      "rating": {
+        "rate": 3.6
+      }
+    }
+    ,
+    {
+      "id": "41",
+      "title": "واترملون  ",
+      "price": 120,
+      "description": "",
+      "category": "نوشیدنی سرد",
+      "image": "/images/watermelon.jpg",
+      "rating": {
+        "rate": 2.9
+      }
+    },
+    {
+      "id": "42",
+      "title": " وایت چاکلت ",
+      "price":0,
+      "description": "ناموجود",
+      "category": "نوشیدنی گرم",
+      "image": "/images/whitechoclet.jpg",
+      "rating": {
+        "rate": 4.8
+      }
+    },
+    {
+      "id": "43",
+      "title": "یونانی   ",
+      "price": 130,
+      "description": "",
+      "category": "قهوه گرم",
+      "image": "/images/yoonani.jpg",
+      "rating": {
+        "rate": 4.8
+      }
+    },
+    {
+      "id": "44",
+      "title": " موکا",
+      "price": 230,
+      "description": "عربیکا :250",
+      "category": "قهوه گرم",
+      "image": "/images/mocha.jpg",
+      "rating": {
+        "rate": 2.9
+      }
+    },
+    {
+      "id": "45",
+      "title": "ایس موکا   ",
+      "price": 230,
+      "description": "عربیکا :250",
+      "category": "قهوه سرد",
+      "image":"/images/icemocha.jpg",
+      "rating": {
+        "rate": 2.2
+      }
+    },
+    {
+      "id": "46",
+      "title": "ایس کارامل ماکیاتو   ",
+      "price":230,
+      "description": "عربیکا :250",
+      "category": "قهوه سرد",
+      "image": "/images/shakevanill.jpg",
+      "rating": {
+        "rate": 2.6
+      }
+    },
+    {
+      "id": "47",
+      "title": "ایس لته وانیل ",
+      "price": 230,
+      "description": "عربیکا :250",
+      "category": "قهوه سرد",
+      "image": "/images/icelattevanill.jpg",
+      "rating": {
+        "rate": 2.9
+      }
+    },
+    {
+      "id": "48",
+      "title": "ایس لته فندق   ",
+      "price": 230,
+      "description": "عربیکا :250",
+      "category": "قهوه سرد",
+      "image":"/images/icelattefandogh.jpg",
+      "rating": {
+        "rate": 3.8
+      }
+    },
+    {
+      "id": "49",
+      "title": " ایس لته آی وی   ",
+      "price": 240,
+      "description": "عربیکا :260",
+      "category": "قهوه سرد",
+      "image": "/images/icelatteIV.jpg",
+      "rating": {
+        "rate": 4.7
+      }
+    },
+    {
+      "id": "50",
+      "title": "ایس اسپرسو  ",
+     "price": 150,
+      "description": "عربیکا :170",
+      "category": "قهوه سرد",
+           "image": "/images/icesperso.jpg",
+      "rating": {
+        "rate": 4.5
+      }
+    },
+    {
+      "id": "51",
+      "title": "ایمنی ",
+      "price": 200,
+      "description": "",
+      "category": "چای و دمنوش",
+                "image": "/images/imeni.jpg",
+      "rating": {
+        "rate": 3.6
+      }
+    },    {
+      "id": "52",
+      "title": "ارامش ",
+       "price": 220,
+      "description": "",
+      "category": "چای و دمنوش",
+      "image": "/images/imeni.jpg",
+      "rating": {
+        "rate": 4.6
+
+      }
+    },
+    {
+      "id": "53",
+      "title":"شیک کارامل بادام زمینی ",
+      "price": 380,
+      "description": "",
+      "category": "شیک و بستنی",
+      "image": "/images/shakekaramelbadamzamini.jpg",
+      "rating": {
+        "rate": 3.9
+      }
+    },
+    {
+      "id": "54",
+      "title": "ایس چاکلت",
+      "price": 180,
+      "description": "",
+      "category": "نوشیدنی سرد",
+      "image": "/images/icechoclate.jpg",
+      "rating": {
+        "rate": 3
+      }
+    },
+    {
+      "id": "55",
+      "title":" هات بادام زمینی ",
+      "price":255 ,
+      "description": "",
+      "category": "نوشیدنی گرم",
+      "image": "/images/hotbadamzamini.jpg",
+      "rating": {
+        "rate": 1.9
+      }
+    },
+    {
+      "id": "56",
+      "title": " هات چاکلف",
+      "price": 210,
+      "description": "",
+      "category": "نوشیدنی گرم",
+      "image": "/images/hotchoclaf.jpg",
+      "rating": {
+        "rate": 3.3
+      }
+    }
+  ]
+}
+
+
