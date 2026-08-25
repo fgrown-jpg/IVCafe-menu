@@ -11,12 +11,12 @@ function Store() {
     const [selectedCategory,setSelectedCategory]=useState<string|null>(null)
   const [products, setProducts] = useState<IProduct[]>([]);
 
-  useEffect(() => {
-    getProduct().then((data) => {
-      console.log(data);
-      setProducts(data);
-    });
-  }, []);
+ useEffect(() => {
+  getProduct().then((data) => {
+    console.log("DATA:", data);
+    setProducts(data);
+  });
+}, []);
   const filteredProducts= products.filter((item)=>{
     
       const matchesCategory=selectedCategory?

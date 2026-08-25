@@ -14,23 +14,23 @@
 //     return data
 // }
 
-import axios from "axios"
+// 
+import axios from "axios";
+import type { IProduct } from "./type";
 
 const client = axios.create({
-  baseURL: "https://fgrown-jpg.github.io/host_API/"
-})
+  baseURL: "https://fgrown-jpg.github.io/host_API/",
+});
 
 export async function getProduct() {
-  const { data } = await client.get("menu.json")
-  return data.products
+  const { data } = await client.get("menu.json");
+  return data.products;
 }
 
 export async function getItem(id: string | number) {
-  const { data } = await client.get("menu.json")
+  const { data } = await client.get("menu.json");
 
-  const product = data.products.find(
-    (item: any) => String(item.id) === String(id)
-  )
-
-  return product
+  return data.products.find(
+    (item: IProduct) => String(item.id) === String(id)
+  );
 }
