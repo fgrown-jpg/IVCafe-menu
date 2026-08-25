@@ -1,6 +1,6 @@
 // import axios from "axios"
 // const client= axios.create({
-//     baseURL:"http://localhost:3000/"
+//     baseURL:"https://fgrown-jpg.github.io/host_API/"
 
 // })
 // export async function getProduct() {
@@ -14,27 +14,23 @@
 //     return data
 // }
 
-// import db from "../public/data/db.json";
+import axios from "axios"
 
-// export async function getProduct() {
-//   return db.products;
-// }
+const client = axios.create({
+  baseURL: "https://fgrown-jpg.github.io/host_API/"
+})
 
-// export async function getItem(id: string | number) {
-//   return db.products.find((p) => p.id === String(id));
-// }
 export async function getProduct() {
-  const response = await fetch("/public/data/db.json");
-  const data = await response.json();
-
-  return data.products;
+  const { data } = await client.get("menu.json")
+  return data.products
 }
 
 export async function getItem(id: string | number) {
-  const response = await fetch("/public/data/db.json");
-  const data = await response.json();
+  const { data } = await client.get("menu.json")
 
-  return data.products.find(
-    (product: any) => String(product.id) === String(id)
-  );
+  const product = data.products.find(
+    (item: any) => String(item.id) === String(id)
+  )
+
+  return product
 }

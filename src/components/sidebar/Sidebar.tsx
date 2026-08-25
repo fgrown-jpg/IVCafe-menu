@@ -3,7 +3,7 @@ interface ISideBar {
 
 }
 function Sidebar({setSelectedCategory}:ISideBar) {
-  const categories=["قهوه سرد","قهوه گرم","نوشیدنی سرد","نوشیدنی گرم", " شیک و بستنی"]
+  const categories=["قهوه سرد","قهوه گرم","نوشیدنی سرد","نوشیدنی گرم", "شیک و بستنی"]
   return (
 
     <div className="px-4">
