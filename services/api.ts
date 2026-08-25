@@ -14,12 +14,27 @@
 //     return data
 // }
 
-import db from "../data/db.json";
+// import db from "../public/data/db.json";
 
+// export async function getProduct() {
+//   return db.products;
+// }
+
+// export async function getItem(id: string | number) {
+//   return db.products.find((p) => p.id === String(id));
+// }
 export async function getProduct() {
-  return db.products;
+  const response = await fetch("/public/data/db.json");
+  const data = await response.json();
+
+  return data.products;
 }
 
 export async function getItem(id: string | number) {
-  return db.products.find((p) => p.id === String(id));
+  const response = await fetch("/public/data/db.json");
+  const data = await response.json();
+
+  return data.products.find(
+    (product: any) => String(product.id) === String(id)
+  );
 }
