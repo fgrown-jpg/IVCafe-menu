@@ -36,7 +36,7 @@ function Product() {
             <span className= "align-middle"><FaStar className="align-middle text-white"/></span>
             <span className="pl-1">{product?.rating.rate} </span>
             
-            <span className="pl-3">{product?.rating?.count} review</span>
+   
             </p>
 
           <p className="text-sm pt-10 text-gray-600">{product?.description}</p>
