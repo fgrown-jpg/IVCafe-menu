@@ -6,7 +6,7 @@
       "price": 280 ,
       "description": "یک شات قهوه, بستنی وانیلی ,گارنیش",
       "category": "قهوه سرد",
-      "image": "/images/afogato.jpg",
+      "image": "https://raw.githubusercontent.com/fgrown-jpg/host_API/main/images/afogato.jpg",
       "rating": {
         "rate": 3.9
       }
